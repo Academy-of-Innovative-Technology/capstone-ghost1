@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Suggestion App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Food Suggestion App</h1>
+        
+        <form id="suggestion-form">
+            <input type="text" id="suggestion-title" placeholder="Suggest a food..." required />
+            <textarea id="suggestion-description" placeholder="Why do you like this food?" required></textarea>
+            <button type="submit">Submit Suggestion</button>
+        </form>
+        
+        <h2>Food Suggestions</h2>
+        <div id="suggestion-list"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
